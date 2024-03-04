@@ -53,8 +53,8 @@
                     include("editar-produto.php");
                     break;
                 default:
-                    print "<h1>Focus control</h1>";
-            }
+                    print "<h1> Soluções em Gereciamento</h1>";
+            } 
             ?>
         </div>
     </div>

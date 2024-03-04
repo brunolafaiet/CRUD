@@ -1,6 +1,6 @@
 /* Estilo para o banner */
 .banner {
-    background-color: #02c132; /* Cor de fundo do banner */
+    background-color: black; /* Cor de fundo do banner */
     color: #ffffff; /* Cor do texto no banner */
     text-align: center; /* Alinhamento do texto no centro */
     padding: 10px; /* Espaçamento interno */
@@ -10,6 +10,7 @@
 .banner h1 {
     font-size: 2rem; /* Tamanho da fonte do título */
     margin-bottom: 10px; /* Espaçamento inferior do título */
+  
 }
 
 .banner p {
@@ -36,11 +37,12 @@ li {
 }
 body{
     align-items: center;
-    text-align:left;
+    text-align:center;
     justify-content: center;
-    background-image: url(img/controle-de-estoque.jpeg);
+    background-image: url(img/jp.jpg);
    background-size: 90%;
    height: 50px;
   
 }
+
 

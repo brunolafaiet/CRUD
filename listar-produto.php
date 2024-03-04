@@ -21,10 +21,10 @@
                     <a class="nav-link active" aria-current="page" href="index.php"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=novo">Adicionar ao Estoque</a>
+                    <a class="nav-link" href="?page=novo">Adicionar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?page=listar"> ou  Remover</a>
+                    <a class="nav-link" href="?page=listar"> Remover</a>
                 </li>
             </ul>
         </div>

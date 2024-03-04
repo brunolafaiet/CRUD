@@ -1,6 +1,6 @@
 /* Estilo para o banner */
 .banner {
-    background-color: #02c132; /* Cor de fundo do banner */
+    background-color: black; /* Cor de fundo do banner */
     color: #fff; /* Cor do texto no banner */
     text-align: center; /* Alinhamento do texto no centro */
     padding: 20px; /* Espaçamento interno */
@@ -22,7 +22,7 @@
 }
 
 .table th {
-    background-color: #06cf38; /* Cor de fundo dos cabeçalhos */
+    background-color: black; /* Cor de fundo dos cabeçalhos */
     color: #fff; /* Cor do texto dos cabeçalhos */
 }
 
