@@ -1,0 +1,57 @@
+/* Estilo para o banner */
+.banner {
+    background-color: #02c132; /* Cor de fundo do banner */
+    color: #fff; /* Cor do texto no banner */
+    text-align: center; /* Alinhamento do texto no centro */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.banner h1 {
+    font-size: 2rem; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+}
+
+.banner p {
+    font-size: 1.2rem; /* Tamanho da fonte do parágrafo */
+}
+
+/* Estilo para a tabela de produtos */
+.table {
+    margin-top: 20px; /* Espaçamento superior da tabela */
+}
+
+.table th {
+    background-color: #06cf38; /* Cor de fundo dos cabeçalhos */
+    color: #fff; /* Cor do texto dos cabeçalhos */
+}
+
+.table td {
+    vertical-align: middle; /* Alinhamento vertical do conteúdo das células */
+}
+
+.table .btn {
+    margin-right: 5px; /* Espaçamento direito entre os botões */
+}
+.nav-item{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    padding: 10px; 
+    transition: color 0.3s;
+}
+li a:hover {
+    color: #555;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-link{
+    font-size: 15px;
+}
