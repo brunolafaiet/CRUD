@@ -9,32 +9,11 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?page=novo"> Estoque de Produto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?page=listar"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
 <div class="container">
     <div class="row">
         <div class="col mt-5">
-            <h1>Novo Produto</h1>
+            <h1>Adicione novos Itens</h1>
             <form action="?page=salvar" method="POST">
                 <input type="hidden" name="acao" value="cadastrar">
                 <div class="mb-3">
@@ -50,7 +29,7 @@
                     <textarea name="descricao" class="form-control"></textarea>
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">cadastrar</button>
                 </div>
             </form>
         </div>
